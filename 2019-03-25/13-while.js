@@ -12,3 +12,4 @@ while (n > 0) {
 
   n = prompt('positive integer number or zero to stop');
 }
+//While a positive integer is input, the prompt will loop continously. The prompt will not exit until n=0.

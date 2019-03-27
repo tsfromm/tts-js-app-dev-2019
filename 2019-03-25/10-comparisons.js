@@ -1,8 +1,8 @@
-const equality = parseInt('ff', 16) === 255;
+const equality = parseInt('ff', 16) == 255;
 console.log(equality);
 console.log(typeof equality);
 
-const inequality = 9 !== 10;
+const inequality = 9 < 10;
 console.log(inequality);
 console.log(typeof inequality);
 

@@ -10,5 +10,6 @@ console.log(temperature, unit);
 if (unit === 'F') {
   console.log(`${temperature} °F is equal to ${(temperature - FREEZING_F) / 1.8} °C`);
 } else {
-  console.log(`${temperature} °C is equal to ${FREEZING_F + temperature * 1.8} °C`);
+  console.log(`${temperature} °C is equal to ${FREEZING_F + temperature * 1.8} °F`);
 }
+//Line 13 was converting Celsius to Celsius so it was corrected.

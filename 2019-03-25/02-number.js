@@ -21,3 +21,4 @@ console.log(typeof numberNegativeInfinity);
 const numberNaN = 0 / 0;
 console.log(numberNaN);
 console.log(typeof numberNaN);
+/* */

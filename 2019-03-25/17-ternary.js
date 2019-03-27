@@ -8,7 +8,7 @@ const temperature = parseFloat(input.slice(0, -1));
 console.log(temperature, unit);
 
 const temperatureOther = unit === 'F'
-  ? (temperature - FREEZING_F) / 1.8
+  ? (temperature - FREEZING_F) / 1.8 
   : FREEZING_F + temperature * 1.8;
 
 const unitOther = unit === 'F'

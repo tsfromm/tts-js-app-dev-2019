@@ -5,6 +5,7 @@ const length = parseFloat(input.slice(0, -2));
 
 console.log(length, unit);
 
-//const lengthMeter = unit === 'cm' ? TODO : TODO;
+const lengthMeter = unit === 'cm' ? length/100 : length/1000;
 
-console.log(`${length}${unit} is equal to ${'TODO'}m`);
+console.log(`${length}${unit} is equal to ${lengthMeter}m`);
+
