@@ -6,20 +6,19 @@ const pointsJ = [
 
 const pointsFormattedJ = [];
 for (let i = 0; i < pointsJ.length; i += 1) {
-  // step 2
-  // assign variables x and y by object destructuring
-  // const xToString = TODO;
-  // const yToString = TODO;
+   var [x, y] = pointsJ;
+  const xToString = pointsJ.toString(x);
+  const yToString = pointsJ.toString(y);
 
-  // step 4
-  // const xToFixed3 = TODO;
-  // const yToFixed3 = TODO;
 
-  // step 6
-  // assign to xShorter the shorter string xToString or xToFixed3
-  // assign to yShorter the shorter string yToString or yToFixed3
+  const xToFixed3 = TODO;
+  const yToFixed3 = TODO;
 
-  //pointsFormattedJ[i] = `${TODO},${TODO}`;
+  
+  const xShorter //the shorter string xToString or xToFixed3
+  const yShorter //the shorter string yToString or yToFixed3
+
+  pointsFormattedJ[i] = `${xShorter},${yShorter}`;
 }
 
 const points = pointsFormattedJ.join(' ');
